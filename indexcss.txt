@@ -1,0 +1,369 @@
+<html>
+<style>
+*{
+text-align:center;
+color:blue;
+//تستخدم لكل العناصر
+/*وايضا كومنت*/
+}
+p {
+  text-align: center;
+  color: red;
+}
+#para1 {
+  text-align: center;
+  color: red;
+}
+
+.center {
+  text-align: center;
+  color: red;
+}
+p.center {
+  text-align: center;
+  color: red;
+}
+
+p.large {
+  font-size: 300%;
+}
+
+h1, h2, p {
+  text-align: center;
+  color: red;
+}
+div {
+  background-color: green;
+  opacity: 0.3;
+}
+div.first {
+  opacity: 0.1;
+}
+
+div.second {
+  opacity: 0.3;
+}
+
+div.third {
+  opacity: 0.6;
+}
+
+body {
+  background-image: url("gradient_bg.png");
+  background-repeat: repeat-x;
+}
+/*body {
+  background-image: url("img_tree.png");
+  background-repeat: no-repeat;
+}
+body {
+  background-image: url("img_tree.png");
+  background-repeat: no-repeat;
+  background-position: right top;
+  margin-right: 200px;
+}
+body {
+  background: #ffffff url("img_tree.png") no-repeat right top;
+}
+Borders
+border width
+
+p {
+  border-top-style: dotted;
+  border-right-style: solid;
+  border-bottom-style: dotted;
+  border-left-style: solid;
+}
+p.three {
+  border-style: dotted solid double;
+}div {
+  border: 1px solid black;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 150px;
+  margin-left: 80px;
+  background-color: lightblue;
+}
+p {
+  margin: 25px 50px 75px;
+}
+p {
+  margin: 25px 50px;
+}p {
+  margin: 25px;
+}div {
+  width: 300px;
+  margin: auto;
+  border: 1px solid red;
+}
+
+h1 {
+  margin: 0 0 50px 0;
+}
+
+h2 {
+  margin: 20px 0 0 0;
+}
+div {
+  padding: 25px 50px 75px;
+}
+div {
+  padding: 25px 50px;
+}
+div {
+  padding: 25px;
+}
+div {
+  width: 300px;
+  border: 15px solid green;
+  padding: 50px;
+  margin: 20px;s
+}
+div {
+  width: 320px;
+  height: 50px;
+  padding: 10px;
+  border: 5px solid gray;
+  margin: 0;
+}
+
+p.dotted {outline-style: dotted;}
+p.dashed {outline-style: dashed;}
+p.solid {outline-style: solid;}
+p.double {outline-style: double;}
+p.groove {outline-style: groove;}
+p.ridge {outline-style: ridge;}
+p.inset {outline-style: inset;}
+p.outset {outline-style: outset;}
+
+body {
+  background-color: lightgrey;
+  color: blue;
+}
+
+h1 {
+  background-color: black;
+  color: white;
+}
+
+div {
+  background-color: blue;
+  color: white;
+}
+div {
+  border: 1px solid black;
+  padding: 10px;
+  width: 200px;
+  height: 200px;
+  background-color:blue;
+  color:white;
+  text-align: justify;
+}
+img.a {
+  vertical-align: baseline;
+}
+
+img.b {
+  vertical-align: text-top;
+}
+
+img.c {
+  vertical-align: text-bottom;
+}
+
+img.d {
+  vertical-align: sub;
+}
+
+img.e {
+  vertical-align: super;
+}
+h1 {
+  text-decoration: overline;
+}
+
+h2 {
+  text-decoration: line-through;
+}
+
+h3 {
+  text-decoration: underline;
+}
+
+p.ex {
+  text-decoration: overline underline;
+}h1 {
+  text-decoration-line: overline;
+  text-decoration-color: red;
+}
+
+h2 {
+  text-decoration-line: line-through;
+  text-decoration-color: blue;
+}
+
+h3 {
+  text-decoration-line: underline;
+  text-decoration-color: green;
+}
+
+p {
+  text-decoration-line: overline underline;
+  text-decoration-color: purple;
+}
+p.uppercase {
+  text-transform: uppercase;
+}
+
+p.lowercase {
+  text-transform: lowercase;
+}
+
+p.capitalize {
+  text-transform: capitalize;
+}
+h2 {
+  letter-spacing: 5px;
+}
+
+h3 {
+  letter-spacing: -2px;
+}
+p.small {
+  line-height: 0.7;
+}
+
+p.big {
+  line-height: 1.8;
+}
+p {
+  text-indent: 50px;
+}
+p.one {
+  word-spacing: 10px;
+}
+
+p.two {
+  word-spacing: -2px;
+}
+p {
+  white-space: nowrap;
+}
+h1 {
+  text-shadow: 2px 2px;
+}
+h1 {
+  text-shadow: 4px 4px red;
+}
+p.normal {
+  font-style: normal;
+}
+
+p.italic {
+  font-style: italic;
+}
+
+p.oblique {
+  font-style: oblique;
+}
+p.normal {
+  font-weight: normal;
+}
+
+p.thick {
+  font-weight: bold;
+}
+p.normal {
+  font-weight: normal;
+}
+
+p.light {
+  font-weight: lighter;
+}
+
+p.thick {
+  font-weight: bold;
+}
+
+p.thicker {
+  font-weight: 900;
+}
+h1 {
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+p {
+  font-size: 14px;
+}
+
+*/
+p.one {
+  border-style: solid;
+  border-color: red green blue yellow; /* red top, green right, blue bottom and yellow left */
+}
+p.two {
+  border-style: solid;
+  border-color: red green ; /* red top and bottom  red, left anr right green */
+}
+<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</style>
+<body>
+<p class="one">A solid multicolor border</p>
+<p class="three">3 different border styles.</p>
+<p class="two">2 different border styles.</p>
+<p>Every paragraph will be affected by the style.</p>
+<p id="para1">Hello World!</p>
+<h1 class="center">Red and center-aligned heading</h1>
+<p class="center">Red and center-aligned paragraph.</p> 
+
+<h1 class="center">This heading will not be affected</h1>
+<p class="center">This paragraph will be red and center-aligned.</p>
+<p class="center large">This paragraph will be red, center-aligned, and in a large font-size.</p> 
+
+<div class="first">
+  <h1>opacity 0.1</h1>
+</div>
+
+<div class="second">
+  <h1>opacity 0.3</h1>
+</div>
+
+<div class="third">
+  <h1>opacity 0.6</h1>
+</div>
+
+<p class="small">
+This is a paragraph with a smaller line-height.<br>
+This is a paragraph with a smaller line-height.<br>
+</p>
+
+<p class="big">
+This is a paragraph with a bigger line-height.<br>
+This is a paragraph with a bigger line-height.<br>
+</p>
+
+<p class="normal">This is a paragraph.</p>
+<p class="light">This is a paragraph.</p>
+<p class="thick">This is a paragraph.</p>
+<p class="thicker">This is a paragraph.</p>
+<i class="fas fa-cloud"></i>
+<i class="fas fa-heart"></i>
+<i class="fas fa-car"></i>
+<i class="fas fa-file"></i>
+<i class="fas fa-bars"></i>
+<p>Styled Font Awesome icons (size and color):</p>
+<i class="fas fa-cloud" style="font-size:24px;"></i>
+<i class="fas fa-cloud" style="font-size:36px;"></i>
+<i class="fas fa-cloud" style="font-size:48px;color:red;"></i>
+<i class="fas fa-cloud" style="font-size:60px;color:lightblue;"></i>
+</body>
+
+
+</html>
